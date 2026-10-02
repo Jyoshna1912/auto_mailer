@@ -69,22 +69,18 @@ const log = {
 
 // ─── Configuration ─────────────────────────────────────────────
 const CONFIG = {
-  senderEmail: process.env.SENDER_EMAIL || "popurimurali16@gmail.com",
+  senderEmail: process.env.SENDER_EMAIL || "rayadurgamjyoshnaroyal@gmail.com",
   appPassword: process.env.GMAIL_APP_PASSWORD,
-  senderName: "Murali Krishna Popuri",
-  senderPhone: "+91 9347796811",
-  portfolioUrl: "https://murali-portfolio-website.vercel.app",
-  githubUrl: "https://github.com/Muralikrishnapopuri",
-  linkedinUrl: "https://linkedin.com/in/murali-krishna-popuri",
-  projectZestchat: "https://zestchat.vercel.app",
-  projectPixelPolish: "https://pixelpolish.vercel.app",
+  senderName: "Jyoshna Rayadurgam",
+  senderPhone: "+91 8142039969",
+  portfolioUrl: "",
+  githubUrl: "",
+  linkedinUrl: "https://linkedin.com/in/jyoshna-rayadurgam",
   baseDelayMs: 3000, // 3s base delay
   jitterMs: 2000,    // 0-2s random jitter (3-5s total)
   previewFile: path.join(__dirname, "preview_emails.json"),
   historyFile: path.join(__dirname, "sent_history.json"),
-  resumePdfFile: fs.existsSync(path.join(__dirname, "Murali_Krishna_Popuri_FullStack_Developer.pdf"))
-    ? path.join(__dirname, "Murali_Krishna_Popuri_FullStack_Developer.pdf")
-    : path.join(__dirname, "Murali_Krishna_Popuri_Full_Stack_Dev.pdf"),
+  resumePdfFile: path.join(__dirname, "Jyoshna_Rayadurgam_Frontend_Developer.pdf"),
   resumeTxtFile: path.join(__dirname, "resume.txt"),
 };
 
@@ -354,55 +350,48 @@ function findDefaultInputFile() {
 
 // ─── Email Personalization Engine ──────────────────────────────
 function generateOutreachEmail(app) {
-  const { company, role, location, jobLink, companyContext } = app;
-  const appliedRole = role || "Full-Stack Developer";
+  const { company, role, location, recruiterName } = app;
+  const appliedRole = (!role || role === "Full-Stack Developer" || role === "Full Stack Developer") ? "Frontend Developer" : role;
   const roleLower = appliedRole.toLowerCase();
 
-  // ── 1. Clean, Natural Subject Line ──
-  const subject = `${appliedRole} – Murali Krishna Popuri`;
+  const greeting = recruiterName ? `Dear ${recruiterName},` : `Dear Hiring Team,`;
 
-  // ── 2. Tailored Tech Stack based on Target Role ──
-  let techStackHighlight = "";
+  // ── 1. Subject Line (Strictly following Email_template.pdf) ──
+  const subject = `Application for ${appliedRole} at ${company}`;
 
-  if (roleLower.includes("frontend") || roleLower.includes("react") || roleLower.includes("ui")) {
-    techStackHighlight = "React.js, Next.js, TypeScript, JavaScript (ES6+), Redux, and Tailwind CSS";
-  } else if (roleLower.includes("backend") || roleLower.includes("node") || roleLower.includes("api")) {
-    techStackHighlight = "Node.js, Express.js, PostgreSQL, MySQL, SQLite, MongoDB, Redis, and REST/WebSocket APIs";
-  } else if (roleLower.includes("php") || roleLower.includes("wordpress")) {
-    techStackHighlight = "PHP, MySQL, React.js, JavaScript (ES6+), and REST APIs";
-  } else {
-    // Default Full-Stack
-    techStackHighlight = "React.js, Node.js, Express, TypeScript, JavaScript (ES6+), PostgreSQL, and MySQL";
+  // ── 2. Tailored Tech Stack ──
+  let techHighlight = "React.js, Electron.js, TypeScript, JavaScript, Tailwind CSS, and REST APIs";
+  if (roleLower.includes("full") || roleLower.includes("backend") || roleLower.includes("node")) {
+    techHighlight = "React.js, Electron.js, TypeScript, Node.js, JavaScript, Tailwind CSS, and REST APIs";
   }
 
-  const locText = location ? ` in ${location}` : "";
+  // ── 3. Plain Text Body (Matching Email_template.pdf Template 1 & 3 Structure) ──
+  const plainBody = `${greeting}
 
-  // ── 3. Natural, Professional Plain Text Body (Zero Emojis, Authentic Tone) ──
-  const targetLoc = location || "Hyderabad / Bengaluru";
-  const plainBody = `Hi ${company} Team,
+I hope you're doing well.
 
-I'm reaching out to apply for the ${appliedRole} position at ${company}${locText}.
+My name is Jyoshna Rayadurgam, and I am a Frontend Developer with nearly 2 years of experience building React.js-based web and desktop applications, actively seeking full-time opportunities.
 
-I am a developer with 2 years of professional experience working with ${techStackHighlight}. I am currently working as a Full-Stack Developer at YoungMinds Technology Solutions, where I build RestoSoft—an offline-first POS desktop system (Electron) with local LAN real-time synchronization and role-based web platforms.
+I came across the ${appliedRole} opening at ${company} and would like to apply for this position. I believe my skills and hands-on experience make me a strong candidate for the role.
 
-Here are links to my work:
-- Portfolio: ${CONFIG.portfolioUrl}
-- LinkedIn: ${CONFIG.linkedinUrl}
-- GitHub: ${CONFIG.githubUrl}
-- Zestchat (Sample web app for WebSockets): ${CONFIG.projectZestchat}
+Here's a quick overview of my profile:
+✓ Nearly 2 years of experience building scalable UI solutions using ${techHighlight}.
+✓ Developed offline-first POS desktop billing systems (PastryChef ERP) using React & Electron.js, examination platforms (ETC Mentors), and responsive corporate web portals at Youngminds.
+✓ Prior background at Accenture (Business Process Associate) with strong technical troubleshooting and client communication capabilities.
 
-Availability & Location:
-I am currently based in Vijayawada, Andhra Pradesh, and available to relocate immediately to ${targetLoc} for onsite or hybrid work. I am serving my notice period with an official Last Working Day of Nov 11, but my manager is flexible and I can be released earlier to join immediately upon offer.
+Please find my resume attached for your review.
 
-I have attached my resume for your review. Please let me know if my background aligns with your requirements, and I would be happy to connect for a short call.
+LinkedIn: ${CONFIG.linkedinUrl}
+
+Thank you for your time and consideration. I look forward to hearing from you.
 
 Best regards,
 
-Murali Krishna Popuri
-+91 9347796811
-${CONFIG.senderEmail}`;
+Jyoshna Rayadurgam
+Email: ${CONFIG.senderEmail}
+Mobile: ${CONFIG.senderPhone}`;
 
-  // ── 4. Clean, Professional HTML Body (Zero Emojis, Pure Professional Standard) ──
+  // ── 4. Clean HTML Body ──
   const htmlBody = `
 <!DOCTYPE html>
 <html>
@@ -410,38 +399,41 @@ ${CONFIG.senderEmail}`;
   <meta charset="utf-8">
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #222222; line-height: 1.6; font-size: 14px; margin: 0; padding: 0; }
-    p { margin: 0 0 14px 0; }
-    ul { margin: 0 0 14px 0; padding-left: 20px; }
-    li { margin-bottom: 5px; }
+    p { margin: 0 0 12px 0; }
+    ul { margin: 0 0 14px 0; padding-left: 20px; list-style-type: none; }
+    li { margin-bottom: 6px; }
     a { color: #0066cc; text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .sign { margin-top: 20px; line-height: 1.5; color: #333333; }
+    .sign { margin-top: 18px; line-height: 1.5; color: #333333; }
   </style>
 </head>
 <body>
-  <p>Hi ${company} Team,</p>
+  <p>${greeting}</p>
 
-  <p>I'm reaching out to apply for the ${appliedRole} position at ${company}${locText}.</p>
+  <p>I hope you're doing well.</p>
 
-  <p>I am a developer with 2 years of professional experience working with ${techStackHighlight}. I am currently working as a Full-Stack Developer at YoungMinds Technology Solutions, where I build RestoSoft—an offline-first POS desktop system (Electron) with local LAN real-time synchronization and role-based web platforms.</p>
+  <p>My name is <strong>Jyoshna Rayadurgam</strong>, and I am a Frontend Developer with nearly 2 years of experience building React.js-based web and desktop applications, actively seeking full-time opportunities.</p>
 
-  <p>Here are links to my work:</p>
+  <p>I came across the <strong>${appliedRole}</strong> opening at <strong>${company}</strong> and would like to apply for this position. I believe my skills and hands-on experience make me a strong candidate for the role.</p>
+
+  <p><strong>Here's a quick overview of my profile:</strong></p>
   <ul>
-    <li>Portfolio: <a href="${CONFIG.portfolioUrl}">${CONFIG.portfolioUrl}</a></li>
-    <li>LinkedIn: <a href="${CONFIG.linkedinUrl}">${CONFIG.linkedinUrl}</a></li>
-    <li>GitHub: <a href="${CONFIG.githubUrl}">${CONFIG.githubUrl}</a></li>
-    <li>Zestchat (Sample web app for WebSockets): <a href="${CONFIG.projectZestchat}">${CONFIG.projectZestchat}</a></li>
+    <li>✓ Nearly 2 years of experience building scalable UI solutions using ${techHighlight}.</li>
+    <li>✓ Developed offline-first POS desktop billing systems (PastryChef ERP) using React &amp; Electron.js, examination platforms (ETC Mentors), and responsive corporate web portals at Youngminds.</li>
+    <li>✓ Prior background at Accenture (Business Process Associate) with strong technical troubleshooting and client communication capabilities.</li>
   </ul>
 
-  <p><strong>Availability &amp; Location:</strong><br>
-  I am currently based in Vijayawada, Andhra Pradesh, and available to relocate immediately to ${targetLoc} for onsite or hybrid work. I am serving my notice period with an official Last Working Day of Nov 11, but my manager is flexible and I can be released earlier to join immediately upon offer.</p>
+  <p>Please find my resume attached for your review.</p>
 
-  <p>I have attached my resume for your review. Please let me know if my background aligns with your requirements, and I would be happy to connect for a short call.</p>
+  <p><strong>LinkedIn:</strong> <a href="${CONFIG.linkedinUrl}">${CONFIG.linkedinUrl}</a></p>
+
+  <p>Thank you for your time and consideration. I look forward to hearing from you.</p>
 
   <div class="sign">
-    <strong>Murali Krishna Popuri</strong><br>
-    +91 9347796811<br>
-    <a href="mailto:${CONFIG.senderEmail}">${CONFIG.senderEmail}</a>
+    Best regards,<br>
+    <strong>Jyoshna Rayadurgam</strong><br>
+    Email: <a href="mailto:${CONFIG.senderEmail}">${CONFIG.senderEmail}</a><br>
+    Mobile: ${CONFIG.senderPhone}
   </div>
 </body>
 </html>`;

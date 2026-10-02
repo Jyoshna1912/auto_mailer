@@ -16,7 +16,7 @@ const path = require("path");
 const fs = require("fs");
 require("dotenv").config({ path: path.join(__dirname, ".env") });
 
-const SENDER_EMAIL = process.env.SENDER_EMAIL || "popurimurali16@gmail.com";
+const SENDER_EMAIL = process.env.SENDER_EMAIL || "rayadurgamjyoshnaroyal@gmail.com";
 const GMAIL_APP_PASSWORD = process.env.GMAIL_APP_PASSWORD;
 const RESUME_PATH = path.join(__dirname, "Murali_Krishna_Popuri_FullStack_Developer.pdf");
 const HISTORY_FILE = path.join(__dirname, "sent_history.json");
