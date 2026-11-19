@@ -1,0 +1,422 @@
+[
+  {
+    "company": "Tvm Infotech",
+    "domain": "tvminfotech.com",
+    "email": "info@tvminfotech.com",
+    "role": "React Developer (0-2 Yrs)",
+    "location": "Chennai"
+  },
+  {
+    "company": "Relinns",
+    "domain": "relinns.com",
+    "email": "contact@relinns.com",
+    "role": "React Developer (0-3 Yrs)",
+    "location": "Bengaluru / Hyderabad / Chennai"
+  },
+  {
+    "company": "Pinus Software",
+    "domain": "pinussoftware.com",
+    "email": "info@pinussoftware.com",
+    "role": "React Developer (1-3 Yrs)",
+    "location": "Chennai"
+  },
+  {
+    "company": "Icube Bussiness Solutions",
+    "domain": "icubebs.com",
+    "email": "careers@icubebs.com",
+    "role": "Senior React Developer (1-5 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "Airavad Web Solutions",
+    "domain": "airavadweb.solutions",
+    "email": "contact@airavadweb.solutions",
+    "role": "React Developer (1-4 Yrs)",
+    "location": "Chennai, Salem"
+  },
+  {
+    "company": "Infospry",
+    "domain": "infospry.com",
+    "email": "careers@infospry.com",
+    "role": "React Developer (1-6 Yrs)",
+    "location": "Bengaluru / Hyderabad / Chennai"
+  },
+  {
+    "company": "Sunseaz Technologies",
+    "domain": "sunseaz.com",
+    "email": "info@sunseaz.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "Shanax Technologies",
+    "domain": "shanaxtechnologies.com",
+    "email": "hr@shanaxtechnologies.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "Arcofintech",
+    "domain": "arcofintech.com",
+    "email": "info@arcofintech.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "Nrich It Consulting Services",
+    "domain": "nrichit.com",
+    "email": "careers@nrichit.com",
+    "role": "Frontend Engineer (React) (3-6 Yrs)",
+    "location": "Remote / Bengaluru"
+  },
+  {
+    "company": "ProdEX Technologies",
+    "domain": "prodex.in",
+    "email": "careers@prodex.in",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Chennai"
+  },
+  {
+    "company": "Bicsom Technologies",
+    "domain": "bicsom.co",
+    "email": "pg@bicsom.co",
+    "role": "React Developer (2-3 Yrs)",
+    "location": "Bengaluru"
+  },
+  {
+    "company": "Tealvue Software Solutions",
+    "domain": "tealvue.com",
+    "email": "info@tealvue.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Chennai"
+  },
+  {
+    "company": "Infobos Technologies",
+    "domain": "infobostech.com",
+    "email": "careers@infobostech.com",
+    "role": "React Developer (2-4 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "Ozrit",
+    "domain": "ozrit.com",
+    "email": "hr@ozrit.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "VR Della Infotech",
+    "domain": "dellainfotech.com",
+    "email": "enquiry@dellainfotech.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "Bottle Lab Technologies",
+    "domain": "thesmartq.com",
+    "email": "careers@thesmartq.com",
+    "role": "React Developer (0-2 Yrs)",
+    "location": "Bengaluru"
+  },
+  {
+    "company": "Csrhat",
+    "domain": "csrhat.com",
+    "email": "careers@csrhat.com",
+    "role": "Frontend React Developer (0-2 Yrs)",
+    "location": "Bengaluru"
+  },
+  {
+    "company": "Alamance It Solutions",
+    "domain": "alamanceinc.com",
+    "email": "info@alamanceinc.com",
+    "role": "React Developers (0-3 Yrs)",
+    "location": "Bengaluru"
+  },
+  {
+    "company": "Innomatics Infotech",
+    "domain": "innomatics.in",
+    "email": "hr@innomatics.in",
+    "role": "React Developer (1-4 Yrs)",
+    "location": "Remote / Hyderabad"
+  },
+  {
+    "company": "Bigwelt Infotech",
+    "domain": "bigwelt.com",
+    "email": "careers@bigwelt.com",
+    "role": "React Developer (1-2 Yrs)",
+    "location": "Bengaluru"
+  },
+  {
+    "company": "Rifluxyss Softwares",
+    "domain": "rifluxyss.com",
+    "email": "info@rifluxyss.com",
+    "role": "React Developer (1-6 Yrs)",
+    "location": "Chennai"
+  },
+  {
+    "company": "Rasi Infotech",
+    "domain": "rasiinfotech.com",
+    "email": "careers@rasiinfotech.com",
+    "role": "React Developer (1-6 Yrs)",
+    "location": "Chennai / Coimbatore"
+  },
+  {
+    "company": "Binlytix",
+    "domain": "binlytix.com",
+    "email": "contact@binlytix.com",
+    "role": "React Developer (2-3 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "Anasol Consultancy Services",
+    "domain": "anasolconsultancy.com",
+    "email": "careers@anasolconsultancy.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "Rankraze",
+    "domain": "rankraze.com",
+    "email": "info@rankraze.com",
+    "role": "Senior React Developer (2-4 Yrs)",
+    "location": "Chennai"
+  },
+  {
+    "company": "Gether",
+    "domain": "gether.io",
+    "email": "careers@gether.io",
+    "role": "React Developer (2-7 Yrs)",
+    "location": "Bengaluru"
+  },
+  {
+    "company": "Migrow Solutions",
+    "domain": "migrowsolutions.com",
+    "email": "careers@migrowsolutions.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Chennai"
+  },
+  {
+    "company": "Innocode Ventures",
+    "domain": "innocode.io",
+    "email": "careers@innocode.io",
+    "role": "React Developer (2-4 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "Leadstocompany",
+    "domain": "leadstocompany.com",
+    "email": "careers@leadstocompany.com",
+    "role": "React Developer (2-6 Yrs)",
+    "location": "Bengaluru"
+  },
+  {
+    "company": "Midh Technologies",
+    "domain": "midhtech.com",
+    "email": "careers@midhtech.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "Proquo Technologies",
+    "domain": "proquotech.com",
+    "email": "info@proquotech.com",
+    "role": "Senior React Developer (1-5 Yrs)",
+    "location": "Chennai"
+  },
+  {
+    "company": "Cloud Angles Digital Transformation",
+    "domain": "cloudangles.com",
+    "email": "careers@cloudangles.com",
+    "role": "React Developer (5-10 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "Vedhas Technology Solutions",
+    "domain": "vedhas.com",
+    "email": "careers@vedhas.com",
+    "role": "React Developer (1-9 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "Bangalore Softsell",
+    "domain": "bangaloresoftsell.com",
+    "email": "careers@bangaloresoftsell.com",
+    "role": "React Developer (4-9 Yrs)",
+    "location": "Bengaluru"
+  },
+  {
+    "company": "Quest Global",
+    "domain": "quest-global.com",
+    "email": "careers@quest-global.com",
+    "role": "React Developer (4-6 Yrs)",
+    "location": "Bengaluru"
+  },
+  {
+    "company": "Nexon Software",
+    "domain": "nexonsoftware.com",
+    "email": "careers@nexonsoftware.com",
+    "role": "Senior React Developer (5-10 Yrs)",
+    "location": "Bengaluru"
+  },
+  {
+    "company": "Lorven Technologies",
+    "domain": "lorventechnologies.com",
+    "email": "careers@lorventechnologies.com",
+    "role": "React Developer (5-10 Yrs)",
+    "location": "Bengaluru"
+  },
+  {
+    "company": "Revival Media Network",
+    "domain": "revivalmedianetwork.com",
+    "email": "careers@revivalmedianetwork.com",
+    "role": "Senior React Developer (5-10 Yrs)",
+    "location": "Bengaluru"
+  },
+  {
+    "company": "IT Resonance Inc",
+    "domain": "itresonance.com",
+    "email": "careers@itresonance.com",
+    "role": "React Developer (7-12 Yrs)",
+    "location": "Chennai"
+  },
+  {
+    "company": "Wissend",
+    "domain": "wissend.com",
+    "email": "careers@wissend.com",
+    "role": "React Developer (8-13 Yrs)",
+    "location": "Chennai"
+  },
+  {
+    "company": "Emcuso Solutions",
+    "domain": "emcuso.com",
+    "email": "careers@emcuso.com",
+    "role": "React Developer (3-8 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "The It Mind Services",
+    "domain": "theitmind.com",
+    "email": "careers@theitmind.com",
+    "role": "Senior React Developer (5-7 Yrs)",
+    "location": "Bengaluru"
+  },
+  {
+    "company": "Mobile Programming",
+    "domain": "mobileprogramming.com",
+    "email": "careers@mobileprogramming.com",
+    "role": "React Developer (5-10 Yrs)",
+    "location": "Bengaluru"
+  },
+  {
+    "company": "Sykasys Technologies",
+    "domain": "sykasys.com",
+    "email": "careers@sykasys.com",
+    "role": "Senior React Developer (6-11 Yrs)",
+    "location": "Chennai"
+  },
+  {
+    "company": "Nemetschek",
+    "domain": "nemetschek.com",
+    "email": "careers@nemetschek.com",
+    "role": "React Developer (6-10 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "Ikairos",
+    "domain": "ikairos.com",
+    "email": "careers@ikairos.com",
+    "role": "React Developer (3-5 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "Dsmart Systems",
+    "domain": "dsmart.com",
+    "email": "careers@dsmart.com",
+    "role": "React Developer (3-7 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "MetaDesign Solutions",
+    "domain": "metadesignsolutions.com",
+    "email": "careers@metadesignsolutions.com",
+    "role": "React Developer- Gen AI (4-6 Yrs)",
+    "location": "Bengaluru"
+  },
+  {
+    "company": "Instrive Softlabs",
+    "domain": "instrive.in",
+    "email": "careers@instrive.in",
+    "role": "Senior React Developer (5-10 Yrs)",
+    "location": "Chennai"
+  },
+  {
+    "company": "Idenisyss",
+    "domain": "idenisyss.com",
+    "email": "careers@idenisyss.com",
+    "role": "React Developer (6-12 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "Chidhagni Consulting",
+    "domain": "chidhagni.com",
+    "email": "careers@chidhagni.com",
+    "role": "React Developer (3-8 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "ModeFinServer",
+    "domain": "modefin.com",
+    "email": "careers@modefin.com",
+    "role": "React Developer (3-6 Yrs)",
+    "location": "Bengaluru"
+  },
+  {
+    "company": "Swarnasky Technologies",
+    "domain": "swarnasky.com",
+    "email": "careers@swarnasky.com",
+    "role": "Senior React Developer (4-9 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "Kyros Technologies",
+    "domain": "kyrostechnologies.com",
+    "email": "careers@kyrostechnologies.com",
+    "role": "Senior React Developer (5-10 Yrs)",
+    "location": "Chennai"
+  },
+  {
+    "company": "Right Angle Solutions",
+    "domain": "rightanglesolutions.com",
+    "email": "careers@rightanglesolutions.com",
+    "role": "Python / React Developer (5-10 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "IDESLABS",
+    "domain": "ideslabs.com",
+    "email": "careers@ideslabs.com",
+    "role": "Senior React developer (8-10 Yrs)",
+    "location": "Bengaluru"
+  },
+  {
+    "company": "Kofuku Idea Labs",
+    "domain": "kofukuidealabs.com",
+    "email": "careers@kofukuidealabs.com",
+    "role": "REACT DEVELOPER (3-6 Yrs)",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "Pr Glolinks",
+    "domain": "prglolinks.com",
+    "email": "careers@prglolinks.com",
+    "role": "React Developer (5-10 Yrs)",
+    "location": "Chennai"
+  },
+  {
+    "company": "Quixy",
+    "domain": "quixy.com",
+    "email": "careers@quixy.com",
+    "role": "Senior React Developer (5-10 Yrs)",
+    "location": "Hyderabad"
+  }
+]

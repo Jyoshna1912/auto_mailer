@@ -7,7 +7,11 @@
     "dry-run": "node send_jobs.js --dry-run",
     "send": "node send_jobs.js --send",
     "preview": "node send_jobs.js --dry-run",
-    "history": "node send_jobs.js --history"
+    "history": "node send_jobs.js --history",
+    "source-leads": "node lead_sourcer.js",
+    "sourcer-daemon": "node sourcer_daemon.js",
+    "pending": "node dispatch_pending.js --preview",
+    "send-pending": "node dispatch_pending.js --send"
   },
   "keywords": [
     "email",

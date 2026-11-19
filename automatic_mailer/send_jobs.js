@@ -73,7 +73,7 @@ const CONFIG = {
   appPassword: process.env.GMAIL_APP_PASSWORD,
   senderName: "Jyoshna Rayadurgam",
   senderPhone: "+91 8142039969",
-  portfolioUrl: "",
+  portfolioUrl: "https://jyoshna-r-portfolio.vercel.app/",
   githubUrl: "",
   linkedinUrl: "https://linkedin.com/in/jyoshna-rayadurgam",
   baseDelayMs: 3000, // 3s base delay
@@ -322,6 +322,8 @@ function parseSingleLead(leadStr) {
 function findDefaultInputFile() {
   const files = fs.readdirSync(__dirname);
   const preferred = [
+    "fresh_chennai_leads.json",
+    "fresh_verified_leads.json",
     "job_applications.xlsx",
     "job_applications.csv",
     "job_opportunities_curated.md",
@@ -356,34 +358,59 @@ function generateOutreachEmail(app) {
 
   const greeting = recruiterName ? `Dear ${recruiterName},` : `Dear Hiring Team,`;
 
-  // ── 1. Subject Line (Strictly following Email_template.pdf) ──
-  const subject = `Application for ${appliedRole} at ${company}`;
+  // ── 1. Dynamic Location & Relocation Detection ──
+  let targetCity = "";
+  if (location) {
+    const locLower = location.toLowerCase();
+    if (locLower.includes("chennai")) targetCity = "Chennai";
+    else if (locLower.includes("bangalore") || locLower.includes("bengaluru")) targetCity = "Bangalore";
+    else if (locLower.includes("hyderabad")) targetCity = "Hyderabad";
+    else if (locLower.includes("pune")) targetCity = "Pune";
+    else if (locLower.includes("noida") || locLower.includes("gurgaon") || locLower.includes("delhi")) targetCity = "Delhi NCR";
+    else if (locLower.includes("mumbai")) targetCity = "Mumbai";
+  }
 
-  // ── 2. Tailored Tech Stack ──
+  const relocateSuffix = targetCity ? `Ready to Relocate to ${targetCity}` : `Ready to Relocate`;
+  const relocationBullet = targetCity
+    ? `Immediate joiner (ready to relocate to ${targetCity}).`
+    : `Immediate joiner (ready to relocate to Chennai / Bangalore / Hyderabad / open to Remote).`;
+
+  // ── 2. Subject Line (High-Converting, Mobile-Friendly, Zero Automated Brackets) ──
+  let subject;
+  if (roleLower.includes("react")) {
+    subject = `${appliedRole} | Immediate Joiner (0-15 Days) | ${relocateSuffix} - Jyoshna Rayadurgam`;
+  } else {
+    subject = `${appliedRole} (React.js / TypeScript) | Immediate Joiner (0-15 Days) | ${relocateSuffix} - Jyoshna Rayadurgam`;
+  }
+
+  // ── 3. Tailored Tech Stack ──
   let techHighlight = "React.js, Electron.js, TypeScript, JavaScript, Tailwind CSS, and REST APIs";
   if (roleLower.includes("full") || roleLower.includes("backend") || roleLower.includes("node")) {
     techHighlight = "React.js, Electron.js, TypeScript, Node.js, JavaScript, Tailwind CSS, and REST APIs";
   }
 
-  // ── 3. Plain Text Body (Matching Email_template.pdf Template 1 & 3 Structure) ──
+  // ── 4. Plain Text Body (Matching Email_template.pdf & Recruiter Checklist) ──
   const plainBody = `${greeting}
 
 I hope you're doing well.
 
 My name is Jyoshna Rayadurgam, and I am a Frontend Developer with nearly 2 years of experience building React.js-based web and desktop applications, actively seeking full-time opportunities.
 
-I came across the ${appliedRole} opening at ${company} and would like to apply for this position. I believe my skills and hands-on experience make me a strong candidate for the role.
+I came across your opening for the ${appliedRole} role at ${company} and would like to apply. Based on my hands-on background delivering client-facing applications, I believe my skills are a strong match for your requirements.
 
-Here's a quick overview of my profile:
-✓ Nearly 2 years of experience building scalable UI solutions using ${techHighlight}.
-✓ Developed offline-first POS desktop billing systems (PastryChef ERP) using React & Electron.js, examination platforms (ETC Mentors), and responsive corporate web portals at Youngminds.
-✓ Prior background at Accenture (Business Process Associate) with strong technical troubleshooting and client communication capabilities.
+A quick summary of my background:
+- Hands-on experience developing responsive web and desktop applications using ${techHighlight}.
+- Built offline-first POS billing systems (PastryChef ERP) using React and Electron.js, including local-to-server data synchronization, cashier workflows, and tax calculation modules across client outlets.
+- Developed administration portals, role-based dashboards, and live examination platforms (ETC Mentors) with REST API integrations.
+- Prior professional foundation at Accenture with strong client communication and technical troubleshooting skills.
+- ${relocationBullet}
 
 Please find my resume attached for your review.
 
+Portfolio: ${CONFIG.portfolioUrl}
 LinkedIn: ${CONFIG.linkedinUrl}
 
-Thank you for your time and consideration. I look forward to hearing from you.
+Thank you for your time and consideration. I would welcome the opportunity to speak with you.
 
 Best regards,
 
@@ -391,7 +418,7 @@ Jyoshna Rayadurgam
 Email: ${CONFIG.senderEmail}
 Mobile: ${CONFIG.senderPhone}`;
 
-  // ── 4. Clean HTML Body ──
+  // ── 5. Clean HTML Body ──
   const htmlBody = `
 <!DOCTYPE html>
 <html>
@@ -400,7 +427,7 @@ Mobile: ${CONFIG.senderPhone}`;
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #222222; line-height: 1.6; font-size: 14px; margin: 0; padding: 0; }
     p { margin: 0 0 12px 0; }
-    ul { margin: 0 0 14px 0; padding-left: 20px; list-style-type: none; }
+    ul { margin: 0 0 14px 0; padding-left: 20px; }
     li { margin-bottom: 6px; }
     a { color: #0066cc; text-decoration: none; }
     a:hover { text-decoration: underline; }
@@ -414,20 +441,23 @@ Mobile: ${CONFIG.senderPhone}`;
 
   <p>My name is <strong>Jyoshna Rayadurgam</strong>, and I am a Frontend Developer with nearly 2 years of experience building React.js-based web and desktop applications, actively seeking full-time opportunities.</p>
 
-  <p>I came across the <strong>${appliedRole}</strong> opening at <strong>${company}</strong> and would like to apply for this position. I believe my skills and hands-on experience make me a strong candidate for the role.</p>
+  <p>I came across your opening for the <strong>${appliedRole}</strong> role at <strong>${company}</strong> and would like to apply. Based on my hands-on background delivering client-facing applications, I believe my skills are a strong match for your requirements.</p>
 
-  <p><strong>Here's a quick overview of my profile:</strong></p>
+  <p><strong>A quick summary of my background:</strong></p>
   <ul>
-    <li>✓ Nearly 2 years of experience building scalable UI solutions using ${techHighlight}.</li>
-    <li>✓ Developed offline-first POS desktop billing systems (PastryChef ERP) using React &amp; Electron.js, examination platforms (ETC Mentors), and responsive corporate web portals at Youngminds.</li>
-    <li>✓ Prior background at Accenture (Business Process Associate) with strong technical troubleshooting and client communication capabilities.</li>
+    <li>Hands-on experience developing responsive web and desktop applications using ${techHighlight}.</li>
+    <li>Built offline-first POS billing systems (PastryChef ERP) using React and Electron.js, including local-to-server data synchronization, cashier workflows, and tax calculation modules across client outlets.</li>
+    <li>Developed administration portals, role-based dashboards, and live examination platforms (ETC Mentors) with REST API integrations.</li>
+    <li>Prior professional foundation at Accenture with strong client communication and technical troubleshooting skills.</li>
+    <li>${relocationBullet}</li>
   </ul>
 
   <p>Please find my resume attached for your review.</p>
 
+  <p><strong>Portfolio:</strong> <a href="${CONFIG.portfolioUrl}">${CONFIG.portfolioUrl}</a></p>
   <p><strong>LinkedIn:</strong> <a href="${CONFIG.linkedinUrl}">${CONFIG.linkedinUrl}</a></p>
 
-  <p>Thank you for your time and consideration. I look forward to hearing from you.</p>
+  <p>Thank you for your time and consideration. I would welcome the opportunity to speak with you.</p>
 
   <div class="sign">
     Best regards,<br>
@@ -535,7 +565,11 @@ async function runDryRun(entries, force = false) {
     log.divider();
   }
 
-  fs.writeFileSync(CONFIG.previewFile, JSON.stringify(previews, null, 2), "utf-8");
+  try {
+    fs.writeFileSync(CONFIG.previewFile, JSON.stringify(previews, null, 2), "utf-8");
+  } catch (err) {
+    log.warn(`Could not write preview file (${err.message}), continuing.`);
+  }
 
   console.log("");
   log.success(`Generated ${previews.length} ready-to-send draft(s) in: preview_emails.json`);

@@ -1,44 +1,89 @@
-# 🔍 LinkedIn Clean Direct Search Links
+# 🎯 Pure Frontend & UI Focused LinkedIn Search Links (Real-Time Feed)
 
-Clean, 100% working LinkedIn search links for **Frontend**, **JavaScript**, **UI**, and **Web Developer** hiring posts and jobs in **Hyderabad** and **Bengaluru**.
-
----
-
-## 📢 1. Recruiter & HR Hiring Posts (Live Feed Posts)
-
-### 📍 Hyderabad Posts
-- 🔗 [Frontend Developer Hiring Posts (Hyderabad)](https://www.linkedin.com/search/results/content/?keywords=Frontend%20Developer%20hiring%20Hyderabad)
-- 🔗 [React Developer Hiring Posts (Hyderabad)](https://www.linkedin.com/search/results/content/?keywords=React%20Developer%20hiring%20Hyderabad)
-- 🔗 [UI Developer Hiring Posts (Hyderabad)](https://www.linkedin.com/search/results/content/?keywords=UI%20Developer%20hiring%20Hyderabad)
-- 🔗 [JavaScript Developer Hiring Posts (Hyderabad)](https://www.linkedin.com/search/results/content/?keywords=JavaScript%20Developer%20hiring%20Hyderabad)
-- 🔗 [Web Developer Hiring Posts (Hyderabad)](https://www.linkedin.com/search/results/content/?keywords=Web%20Developer%20hiring%20Hyderabad)
-- 🔗 [HR / Talent Acquisition Posts (Hyderabad)](https://www.linkedin.com/search/results/content/?keywords=Talent%20Acquisition%20Frontend%20Hyderabad)
-
-### 📍 Bengaluru (Bangalore) Posts
-- 🔗 [Frontend Developer Hiring Posts (Bengaluru)](https://www.linkedin.com/search/results/content/?keywords=Frontend%20Developer%20hiring%20Bengaluru)
-- 🔗 [React Developer Hiring Posts (Bengaluru)](https://www.linkedin.com/search/results/content/?keywords=React%20Developer%20hiring%20Bengaluru)
-- 🔗 [UI Developer Hiring Posts (Bengaluru)](https://www.linkedin.com/search/results/content/?keywords=UI%20Developer%20hiring%20Bengaluru)
-- 🔗 [JavaScript Developer Hiring Posts (Bengaluru)](https://www.linkedin.com/search/results/content/?keywords=JavaScript%20Developer%20hiring%20Bengaluru)
-- 🔗 [Web Developer Hiring Posts (Bengaluru)](https://www.linkedin.com/search/results/content/?keywords=Web%20Developer%20hiring%20Bengaluru)
-- 🔗 [HR / Talent Acquisition Posts (Bengaluru)](https://www.linkedin.com/search/results/content/?keywords=Talent%20Acquisition%20Frontend%20Bengaluru)
+> **Role Filter:** Strictly **Frontend Developer, UI Developer, React.js Developer, JavaScript Developer, Web Developer** (No Full-Stack / Backend).  
+> **Location Filter:** **Hyderabad**, **Bangalore (Bengaluru)**, and **Chennai** ONLY.  
+> **Sort Order:** `sortBy="date_posted"` + `datePosted="past-24h"` (The newest live posts published minutes to < 2 hours ago appear at the top).
 
 ---
 
-## 🏢 2. Direct Job Postings (Filtered by Location)
+## 📢 1. Direct HR & Talent Acquisition Posts (Live Feed)
 
-### 📍 Hyderabad Jobs
-- 🔗 [Frontend Developer Jobs (Hyderabad)](https://www.linkedin.com/jobs/search/?keywords=Frontend%20Developer&location=Hyderabad)
-- 🔗 [React & UI Developer Jobs (Hyderabad)](https://www.linkedin.com/jobs/search/?keywords=React%20Developer&location=Hyderabad)
-- 🔗 [JavaScript & Web Developer Jobs (Hyderabad)](https://www.linkedin.com/jobs/search/?keywords=JavaScript%20Developer&location=Hyderabad)
+Recruiters and TA specialists posting active openings on their personal feeds:
 
-### 📍 Bengaluru Jobs
-- 🔗 [Frontend Developer Jobs (Bengaluru)](https://www.linkedin.com/jobs/search/?keywords=Frontend%20Developer&location=Bengaluru)
-- 🔗 [React & UI Developer Jobs (Bengaluru)](https://www.linkedin.com/jobs/search/?keywords=React%20Developer&location=Bengaluru)
-- 🔗 [JavaScript & Web Developer Jobs (Bengaluru)](https://www.linkedin.com/jobs/search/?keywords=JavaScript%20Developer&location=Bengaluru)
+### 📍 Hyderabad
+- 🔗 [Hyderabad — Talent Acquisition Posts for Frontend / UI](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22Talent%20Acquisition%22%20AND%20%28%22Frontend%20Developer%22%20OR%20%22UI%20Developer%22%20OR%20%22React%20Developer%22%29%20AND%20%22Hyderabad%22&sortBy=%22date_posted%22)
+- 🔗 [Hyderabad — HR Hiring Frontend / React Developers](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22HR%22%20AND%20%22hiring%22%20AND%20%28%22Frontend%20Developer%22%20OR%20%22React%20Developer%22%20OR%20%22UI%20Developer%22%29%20AND%20%22Hyderabad%22&sortBy=%22date_posted%22)
+
+### 📍 Bangalore (Bengaluru)
+- 🔗 [Bangalore — Talent Acquisition Posts for Frontend / UI](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22Talent%20Acquisition%22%20AND%20%28%22Frontend%20Developer%22%20OR%20%22UI%20Developer%22%20OR%20%22React%20Developer%22%29%20AND%20%28%22Bangalore%22%20OR%20%22Bengaluru%22%29&sortBy=%22date_posted%22)
+- 🔗 [Bangalore — HR Hiring Frontend / React Developers](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22HR%22%20AND%20%22hiring%22%20AND%20%28%22Frontend%20Developer%22%20OR%20%22React%20Developer%22%20OR%20%22UI%20Developer%22%29%20AND%20%28%22Bangalore%22%20OR%20%22Bengaluru%22%29&sortBy=%22date_posted%22)
+
+### 📍 Chennai
+- 🔗 [Chennai — Talent Acquisition Posts for Frontend / UI](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22Talent%20Acquisition%22%20AND%20%28%22Frontend%20Developer%22%20OR%20%22UI%20Developer%22%20OR%20%22React%20Developer%22%29%20AND%20%22Chennai%22&sortBy=%22date_posted%22)
+- 🔗 [Chennai — HR Hiring Frontend / React Developers](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22HR%22%20AND%20%22hiring%22%20AND%20%28%22Frontend%20Developer%22%20OR%20%22React%20Developer%22%20OR%20%22UI%20Developer%22%29%20AND%20%22Chennai%22&sortBy=%22date_posted%22)
 
 ---
 
-## ⚡ 3. Immediate Joiner / Fast Release Hiring Posts
+## 💼 2. Recruiter Posts with "Share Resume / Email" (Highest Response Rate)
 
-- 🔗 [Immediate Joiner Frontend Posts (Hyderabad)](https://www.linkedin.com/search/results/content/?keywords=Frontend%20Immediate%20Joiner%20Hyderabad)
-- 🔗 [Immediate Joiner Frontend Posts (Bengaluru)](https://www.linkedin.com/search/results/content/?keywords=Frontend%20Immediate%20Joiner%20Bengaluru)
+Posts where recruiters explicitly provide an email address or request resumes directly:
+
+### 📍 Hyderabad
+- 🔗 [Hyderabad — "Hiring" Frontend Developer + "Share Resume" / "Send CV"](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22hiring%22%20AND%20%22Frontend%20Developer%22%20AND%20%28%22share%20resume%22%20OR%20%22send%20cv%22%20OR%20%22email%22%29%20AND%20%22Hyderabad%22&sortBy=%22date_posted%22)
+- 🔗 [Hyderabad — "Hiring" React.js Developer + "Share Resume" / "Send CV"](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22hiring%22%20AND%20%22React%20Developer%22%20AND%20%28%22share%20resume%22%20OR%20%22send%20cv%22%20OR%20%22email%22%29%20AND%20%22Hyderabad%22&sortBy=%22date_posted%22)
+- 🔗 [Hyderabad — "Hiring" UI Developer / Web Developer + "Share Resume"](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22hiring%22%20AND%20%28%22UI%20Developer%22%20OR%20%22Web%20Developer%22%29%20AND%20%28%22share%20resume%22%20OR%20%22send%20cv%22%20OR%20%22email%22%29%20AND%20%22Hyderabad%22&sortBy=%22date_posted%22)
+- 🔗 [Hyderabad — "Hiring" JavaScript Developer + "Share Resume"](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22hiring%22%20AND%20%22JavaScript%20Developer%22%20AND%20%28%22share%20resume%22%20OR%20%22send%20cv%22%20OR%20%22email%22%29%20AND%20%22Hyderabad%22&sortBy=%22date_posted%22)
+
+### 📍 Bangalore (Bengaluru)
+- 🔗 [Bangalore — "Hiring" Frontend Developer + "Share Resume" / "Send CV"](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22hiring%22%20AND%20%22Frontend%20Developer%22%20AND%20%28%22share%20resume%22%20OR%20%22send%20cv%22%20OR%20%22email%22%29%20AND%20%28%22Bangalore%22%20OR%20%22Bengaluru%22%29&sortBy=%22date_posted%22)
+- 🔗 [Bangalore — "Hiring" React.js Developer + "Share Resume" / "Send CV"](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22hiring%22%20AND%20%22React%20Developer%22%20AND%20%28%22share%20resume%22%20OR%20%22send%20cv%22%20OR%20%22email%22%29%20AND%20%28%22Bangalore%22%20OR%20%22Bengaluru%22%29&sortBy=%22date_posted%22)
+- 🔗 [Bangalore — "Hiring" UI Developer / Web Developer + "Share Resume"](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22hiring%22%20AND%20%28%22UI%20Developer%22%20OR%20%22Web%20Developer%22%29%20AND%20%28%22share%20resume%22%20OR%20%22send%20cv%22%20OR%20%22email%22%29%20AND%20%28%22Bangalore%22%20OR%20%22Bengaluru%22%29&sortBy=%22date_posted%22)
+- 🔗 [Bangalore — "Hiring" JavaScript Developer + "Share Resume"](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22hiring%22%20AND%20%22JavaScript%20Developer%22%20AND%20%28%22share%20resume%22%20OR%20%22send%20cv%22%20OR%20%22email%22%29%20AND%20%28%22Bangalore%22%20OR%20%22Bengaluru%22%29&sortBy=%22date_posted%22)
+
+### 📍 Chennai
+- 🔗 [Chennai — "Hiring" Frontend Developer + "Share Resume" / "Send CV"](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22hiring%22%20AND%20%22Frontend%20Developer%22%20AND%20%28%22share%20resume%22%20OR%20%22send%20cv%22%20OR%20%22email%22%29%20AND%20%22Chennai%22&sortBy=%22date_posted%22)
+- 🔗 [Chennai — "Hiring" React.js Developer + "Share Resume" / "Send CV"](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22hiring%22%20AND%20%22React%20Developer%22%20AND%20%28%22share%20resume%22%20OR%20%22send%20cv%22%20OR%20%22email%22%29%20AND%20%22Chennai%22&sortBy=%22date_posted%22)
+- 🔗 [Chennai — "Hiring" UI Developer / Web Developer + "Share Resume"](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22hiring%22%20AND%20%28%22UI%20Developer%22%20OR%20%22Web%20Developer%22%29%20AND%20%28%22share%20resume%22%20OR%20%22send%20cv%22%20OR%20%22email%22%29%20AND%20%22Chennai%22&sortBy=%22date_posted%22)
+- 🔗 [Chennai — "Hiring" JavaScript Developer + "Share Resume"](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22hiring%22%20AND%20%22JavaScript%20Developer%22%20AND%20%28%22share%20resume%22%20OR%20%22send%20cv%22%20OR%20%22email%22%29%20AND%20%22Chennai%22&sortBy=%22date_posted%22)
+
+---
+
+## 🏢 3. Company Hiring & Active Openings Posts
+
+Posts published by company pages or founders announcing active hiring drives:
+
+### 📍 Hyderabad
+- 🔗 [Hyderabad — "We are hiring" Frontend Developer](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22we%20are%20hiring%22%20AND%20%22Frontend%20Developer%22%20AND%20%22Hyderabad%22&sortBy=%22date_posted%22)
+- 🔗 [Hyderabad — "Opening for" UI / React Developer](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22opening%20for%22%20AND%20%28%22UI%20Developer%22%20OR%20%22React%20Developer%22%29%20AND%20%22Hyderabad%22&sortBy=%22date_posted%22)
+
+### 📍 Bangalore (Bengaluru)
+- 🔗 [Bangalore — "We are hiring" Frontend Developer](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22we%20are%20hiring%22%20AND%20%22Frontend%20Developer%22%20AND%20%28%22Bangalore%22%20OR%20%22Bengaluru%22%29&sortBy=%22date_posted%22)
+- 🔗 [Bangalore — "Opening for" UI / React Developer](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22opening%20for%22%20AND%20%28%22UI%20Developer%22%20OR%20%22React%20Developer%22%29%20AND%20%28%22Bangalore%22%20OR%20%22Bengaluru%22%29&sortBy=%22date_posted%22)
+
+### 📍 Chennai
+- 🔗 [Chennai — "We are hiring" Frontend Developer](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22we%20are%20hiring%22%20AND%20%22Frontend%20Developer%22%20AND%20%22Chennai%22&sortBy=%22date_posted%22)
+- 🔗 [Chennai — "Opening for" UI / React Developer](https://www.linkedin.com/search/results/content/?datePosted=%22past-24h%22&keywords=%22opening%20for%22%20AND%20%28%22UI%20Developer%22%20OR%20%22React%20Developer%22%29%20AND%20%22Chennai%22&sortBy=%22date_posted%22)
+
+---
+
+## ⚡ 4. Official LinkedIn Jobs Tab (Sorted by Date — Most Recent First)
+
+These links point directly to LinkedIn's official Job Listings filtered for the **Past 24 Hours** and sorted strictly by **Date Descending (`sortBy=DD`)**:
+
+### 📍 Hyderabad
+- 🔗 [Hyderabad — Frontend Developer Jobs (Most Recent First)](https://www.linkedin.com/jobs/search/?f_TPR=r86400&keywords=Frontend%20Developer&location=Hyderabad%2C%20Telangana%2C%20India&sortBy=DD)
+- 🔗 [Hyderabad — React Developer Jobs (Most Recent First)](https://www.linkedin.com/jobs/search/?f_TPR=r86400&keywords=React%20Developer&location=Hyderabad%2C%20Telangana%2C%20India&sortBy=DD)
+- 🔗 [Hyderabad — UI Developer Jobs (Most Recent First)](https://www.linkedin.com/jobs/search/?f_TPR=r86400&keywords=UI%20Developer&location=Hyderabad%2C%20Telangana%2C%20India&sortBy=DD)
+- 🔗 [Hyderabad — JavaScript & Web Developer Jobs (Most Recent First)](https://www.linkedin.com/jobs/search/?f_TPR=r86400&keywords=JavaScript%20Developer&location=Hyderabad%2C%20Telangana%2C%20India&sortBy=DD)
+
+### 📍 Bangalore (Bengaluru)
+- 🔗 [Bangalore — Frontend Developer Jobs (Most Recent First)](https://www.linkedin.com/jobs/search/?f_TPR=r86400&keywords=Frontend%20Developer&location=Bengaluru%2C%20Karnataka%2C%20India&sortBy=DD)
+- 🔗 [Bangalore — React Developer Jobs (Most Recent First)](https://www.linkedin.com/jobs/search/?f_TPR=r86400&keywords=React%20Developer&location=Bengaluru%2C%20Karnataka%2C%20India&sortBy=DD)
+- 🔗 [Bangalore — UI Developer Jobs (Most Recent First)](https://www.linkedin.com/jobs/search/?f_TPR=r86400&keywords=UI%20Developer&location=Bengaluru%2C%20Karnataka%2C%20India&sortBy=DD)
+- 🔗 [Bangalore — JavaScript & Web Developer Jobs (Most Recent First)](https://www.linkedin.com/jobs/search/?f_TPR=r86400&keywords=JavaScript%20Developer&location=Bengaluru%2C%20Karnataka%2C%20India&sortBy=DD)
+
+### 📍 Chennai
+- 🔗 [Chennai — Frontend Developer Jobs (Most Recent First)](https://www.linkedin.com/jobs/search/?f_TPR=r86400&keywords=Frontend%20Developer&location=Chennai%2C%20Tamil%20Nadu%2C%20India&sortBy=DD)
+- 🔗 [Chennai — React Developer Jobs (Most Recent First)](https://www.linkedin.com/jobs/search/?f_TPR=r86400&keywords=React%20Developer&location=Chennai%2C%20Tamil%20Nadu%2C%20India&sortBy=DD)
+- 🔗 [Chennai — UI Developer Jobs (Most Recent First)](https://www.linkedin.com/jobs/search/?f_TPR=r86400&keywords=UI%20Developer&location=Chennai%2C%20Tamil%20Nadu%2C%20India&sortBy=DD)
+- 🔗 [Chennai — JavaScript & Web Developer Jobs (Most Recent First)](https://www.linkedin.com/jobs/search/?f_TPR=r86400&keywords=JavaScript%20Developer&location=Chennai%2C%20Tamil%20Nadu%2C%20India&sortBy=DD)

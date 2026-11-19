@@ -1,0 +1,122 @@
+[
+  {
+    "company": "Virtusa",
+    "email": "sadhanapatil@virtusa.com",
+    "role": "React.js Developer",
+    "location": "Bangalore"
+  },
+  {
+    "company": "GyanSys Inc",
+    "email": "kiran.devaraj@gyansys.com",
+    "role": "React JS Developer",
+    "location": "Bangalore"
+  },
+  {
+    "company": "Kudzu Infotech",
+    "email": "shreya.b@kudzuinfotech.com",
+    "role": "Frontend Developer",
+    "location": "Bangalore"
+  },
+  {
+    "company": "Future Varsity",
+    "email": "neelam.tiwari@futurevarsity.edu.in",
+    "role": "Junior Frontend Developer",
+    "location": "Bangalore"
+  },
+  {
+    "company": "Future Varsity HR",
+    "email": "Hr@futurevarsity.edu.in",
+    "role": "Junior Frontend Developer",
+    "location": "Bangalore"
+  },
+  {
+    "company": "Cybotrix Technologies",
+    "email": "contact@cybotrix.com",
+    "role": "Frontend React Developer",
+    "location": "Bangalore"
+  },
+  {
+    "company": "Destiny HR Group",
+    "email": "Pankaj@destinyhrgroup.com",
+    "role": "Frontend React Developer",
+    "location": "Bangalore"
+  },
+  {
+    "company": "DigiRecruitx",
+    "email": "info@digirecruitx.com",
+    "role": "Frontend React Developer",
+    "location": "Bangalore"
+  },
+  {
+    "company": "G.A. Informatics",
+    "email": "cv@gainformatics.com",
+    "role": "Frontend Web Developer",
+    "location": "Bangalore"
+  },
+  {
+    "company": "CodeCrux Web Technologies",
+    "email": "hr@codecrux.com",
+    "role": "React Developer",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "CodeCrux Web Technologies",
+    "email": "shyam@codecrux.com",
+    "role": "React Developer",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "PCRA Technologies",
+    "email": "pcratechno@gmail.com",
+    "role": "React.js Developer",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "SutraHR",
+    "email": "buzz@sutrahr.com",
+    "role": "Frontend Developer",
+    "location": "Bangalore"
+  },
+  {
+    "company": "Career Choice Solution",
+    "email": "abhishek.p@careerchoicesolution.com",
+    "role": "React Developer",
+    "location": "Bangalore"
+  },
+  {
+    "company": "Career Choice Solution HRD",
+    "email": "HRD@careerchoicesolution.com",
+    "role": "React Developer",
+    "location": "Bangalore"
+  },
+  {
+    "company": "V3 Staffing Solutions",
+    "email": "info@v3staffing.in",
+    "role": "Frontend React Developer",
+    "location": "Hyderabad"
+  },
+  {
+    "company": "MultiRecruit Bangalore",
+    "email": "info@multirecruit.com",
+    "role": "Frontend Developer",
+    "location": "Bangalore"
+  },
+  {
+    "company": "Hucon Solutions",
+    "email": "info@huconsolutions.com",
+    "role": "React Developer",
+    "location": "Hyderabad / Bangalore"
+  },
+  {
+    "company": "Growel Softech",
+    "email": "careers@growelsoftech.com",
+    "role": "React Frontend Developer",
+    "location": "Bangalore"
+  },
+  {
+    "company": "Ansly Tech",
+    "email": "anslyprojects@gmail.com",
+    "role": "Frontend Developer",
+    "location": "Bangalore"
+  }
+]

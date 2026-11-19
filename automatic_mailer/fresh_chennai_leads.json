@@ -1,0 +1,282 @@
+[
+  {
+    "company": "Zuci Systems",
+    "email": "hr@zucisystems.com",
+    "role": "React.js Developer",
+    "location": "OMR, Chennai",
+    "employeeCount": "250-500",
+    "source": "Official Portal / Careers"
+  },
+  {
+    "company": "Smarther Technologies",
+    "email": "info@smarther.co",
+    "role": "Frontend Developer",
+    "location": "Chennai",
+    "employeeCount": "50-200",
+    "source": "Official Website"
+  },
+  {
+    "company": "Dot Com Infoway",
+    "email": "hr@dci.in",
+    "role": "React.js Developer",
+    "location": "Chennai",
+    "employeeCount": "150-300",
+    "source": "Official Careers"
+  },
+  {
+    "company": "SquareShift Technologies",
+    "email": "careers@squareshift.co",
+    "role": "Frontend Developer",
+    "location": "Chennai",
+    "employeeCount": "50-100",
+    "source": "Official Careers"
+  },
+  {
+    "company": "Agilisium Consulting",
+    "email": "talent@agilisium.com",
+    "role": "React.js Developer",
+    "location": "Perungudi, Chennai",
+    "employeeCount": "300-500",
+    "source": "Official Portal"
+  },
+  {
+    "company": "Indium Software",
+    "email": "careers@indium.tech",
+    "role": "Frontend Developer",
+    "location": "Chennai",
+    "employeeCount": "1000+",
+    "source": "Official Careers"
+  },
+  {
+    "company": "Creatah Software",
+    "email": "career@creatah.com",
+    "role": "React.js Developer",
+    "location": "Chennai",
+    "employeeCount": "50-100",
+    "source": "Official Website"
+  },
+  {
+    "company": "WHY Global Services",
+    "email": "hr@whyglobalservices.com",
+    "role": "Frontend Developer",
+    "location": "Ashok Nagar, Chennai",
+    "employeeCount": "50-200",
+    "source": "Official Careers"
+  },
+  {
+    "company": "Psiog Digital",
+    "email": "info@psiog.com",
+    "role": "React.js Developer",
+    "location": "Guindy, Chennai",
+    "employeeCount": "50-200",
+    "source": "Official Website"
+  },
+  {
+    "company": "SRM Technologies",
+    "email": "contactapac@srmtech.com",
+    "role": "Frontend Developer",
+    "location": "Guindy, Chennai",
+    "employeeCount": "500+",
+    "source": "Official Contact"
+  },
+  {
+    "company": "Innoppl Technologies",
+    "email": "contactus@innoppl.com",
+    "role": "React.js Developer",
+    "location": "Sholinganallur, Chennai",
+    "employeeCount": "100-200",
+    "source": "Official Contact"
+  },
+  {
+    "company": "Bsharp Sales Enablers",
+    "email": "hi@bsharpcorp.com",
+    "role": "Frontend Developer",
+    "location": "Chennai",
+    "employeeCount": "100-200",
+    "source": "Official Website"
+  },
+  {
+    "company": "Plintron",
+    "email": "careers@plintron.com",
+    "role": "React.js Developer",
+    "location": "Tidel Park, Chennai",
+    "employeeCount": "500-1000",
+    "source": "Official Careers"
+  },
+  {
+    "company": "Ivy Mobility",
+    "email": "careers@ivymobility.com",
+    "role": "Frontend Developer",
+    "location": "Chennai",
+    "employeeCount": "150-250",
+    "source": "Official Careers"
+  },
+  {
+    "company": "Inspace Technologies",
+    "email": "info@inspacetech.com",
+    "role": "React.js Developer",
+    "location": "Chennai",
+    "employeeCount": "100-200",
+    "source": "Official Website"
+  },
+  {
+    "company": "Karya Technologies",
+    "email": "info@karyatech.com",
+    "role": "Frontend Developer",
+    "location": "Chennai",
+    "employeeCount": "100-200",
+    "source": "Official Website"
+  },
+  {
+    "company": "Tychons Solutions",
+    "email": "info@tychons.com",
+    "role": "React.js Developer",
+    "location": "Chennai",
+    "employeeCount": "50-100",
+    "source": "Official Website"
+  },
+  {
+    "company": "Amtex Systems",
+    "email": "careers@amtexsystems.com",
+    "role": "Frontend Developer",
+    "location": "Chennai",
+    "employeeCount": "200-500",
+    "source": "Official Careers"
+  },
+  {
+    "company": "ClaySys Technologies",
+    "email": "careers@claysys.com",
+    "role": "React.js Developer",
+    "location": "Chennai",
+    "employeeCount": "200-500",
+    "source": "Official Careers"
+  },
+  {
+    "company": "Netcon Technologies",
+    "email": "info@netcon.in",
+    "role": "Frontend Developer",
+    "location": "Chennai",
+    "employeeCount": "250-500",
+    "source": "Official Website"
+  },
+  {
+    "company": "SecureKloud Technologies",
+    "email": "info@securekloud.com",
+    "role": "React.js Developer",
+    "location": "Chennai",
+    "employeeCount": "300-500",
+    "source": "Official Website"
+  },
+  {
+    "company": "Codoid Innovations",
+    "email": "hr@codoid.com",
+    "role": "Frontend Developer",
+    "location": "Tidel Park, Chennai",
+    "employeeCount": "100-250",
+    "source": "Official HR / Careers"
+  },
+  {
+    "company": "Kryptos Technologies",
+    "email": "hr@kryptostech.com",
+    "role": "React.js Developer",
+    "location": "Chennai",
+    "employeeCount": "200-500",
+    "source": "Official HR / Careers"
+  },
+  {
+    "company": "Sparkout Tech Solutions",
+    "email": "career@sparkouttech.com",
+    "role": "Frontend Developer",
+    "location": "Chennai",
+    "employeeCount": "50-150",
+    "source": "Official HR / Careers"
+  },
+  {
+    "company": "ANGLER Technologies",
+    "email": "hr@angleritech.com",
+    "role": "React.js Developer",
+    "location": "Chennai / Coimbatore",
+    "employeeCount": "150-300",
+    "source": "Official HR / Careers"
+  },
+  {
+    "company": "CliqHR",
+    "email": "careers@cliqhr.com",
+    "role": "Frontend Developer",
+    "location": "Chennai",
+    "employeeCount": "50-200",
+    "source": "Official Careers"
+  },
+  {
+    "company": "Everstage",
+    "email": "builders@everstage.com",
+    "role": "React.js Developer",
+    "location": "OMR, Chennai",
+    "employeeCount": "150-250",
+    "source": "Official Recruitment"
+  },
+  {
+    "company": "SuperOps",
+    "email": "contact@superops.com",
+    "role": "Frontend Developer",
+    "location": "Chennai",
+    "employeeCount": "100-200",
+    "source": "Official Contact"
+  },
+  {
+    "company": "Klenty",
+    "email": "hello@klenty.com",
+    "role": "React.js Developer",
+    "location": "Chennai",
+    "employeeCount": "100-200",
+    "source": "Official Website"
+  },
+  {
+    "company": "Sedin Technologies",
+    "email": "hello@sedintechnologies.com",
+    "role": "Frontend Developer",
+    "location": "Ashok Nagar, Chennai",
+    "employeeCount": "200-500",
+    "source": "Official Website"
+  },
+  {
+    "company": "Siam Computing",
+    "email": "hello@siamcomputing.com",
+    "role": "React.js Developer",
+    "location": "Chennai",
+    "employeeCount": "50-100",
+    "source": "Official Website"
+  },
+  {
+    "company": "Changepond Technologies",
+    "email": "talktous@changepond.com",
+    "role": "Frontend Developer",
+    "location": "SIPCOT Siruseri, Chennai",
+    "employeeCount": "500-1000",
+    "source": "Official Website"
+  },
+  {
+    "company": "Gadgeon Smart Systems",
+    "email": "careers@gadgeon.com",
+    "role": "React.js Developer",
+    "location": "Chennai",
+    "employeeCount": "300-500",
+    "source": "Official Careers"
+  },
+  {
+    "company": "Sysvine Technologies",
+    "email": "info@sysvine.com",
+    "role": "Frontend Developer",
+    "location": "Sysvine Park, OMR, Chennai",
+    "employeeCount": "200-500",
+    "source": "Official Website"
+  },
+  {
+    "company": "Pyramidion Solutions",
+    "email": "sales@pyramidions.com",
+    "role": "React.js Developer",
+    "location": "Maduravoyal, Chennai",
+    "employeeCount": "50-200",
+    "source": "Official Website"
+  }
+]

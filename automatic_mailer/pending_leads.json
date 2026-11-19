@@ -1,0 +1,814 @@
+[
+  {
+    "company": "testQ technologies",
+    "domain": "testqtech.com",
+    "email": "testq@testqtech.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "flentis corporation",
+    "domain": "flentis.com",
+    "email": "info@flentis.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "arsr technologies",
+    "domain": "arsr.in",
+    "email": "careers@arsr.in",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "b4b it solutions",
+    "domain": "b4bit.com",
+    "email": "careers@b4bit.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "advit software",
+    "domain": "advitsoftware.com",
+    "email": "info@advitsoftware.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "silfra technologies",
+    "domain": "silfratech.com",
+    "email": "info@silfratech.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "aritha consulting servcies",
+    "domain": "arithaconsulting.com",
+    "email": "contact@arithaconsulting.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "stridefuture technologies",
+    "domain": "stridefuture.com",
+    "email": "hello@stridefuture.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "vadvice consulting servcies",
+    "domain": "vadvice.co.in",
+    "email": "careers@vadvice.co.in",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "igo solutions",
+    "domain": "igo.com",
+    "email": "careers@igo.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "koireader technologies",
+    "domain": "koireader.com",
+    "email": "careers@koireader.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "salesquared consulting",
+    "domain": "salesquared.io",
+    "email": "careers@salesquared.io",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "digitalraiz",
+    "domain": "digitalraiz.com",
+    "email": "info@digitalraiz.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "swipelinc",
+    "domain": "swipelinc.com",
+    "email": "info@swipelinc.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "medpick",
+    "domain": "medpick.com",
+    "email": "careers@medpick.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "sp software",
+    "domain": "spsoftglobal.com",
+    "email": "careers@spsoftglobal.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "Gforce consulting solutions",
+    "domain": "gforcesolutions.com",
+    "email": "careers@gforcesolutions.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "TOA digital",
+    "domain": "toa.com",
+    "email": "careers@toa.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "photon",
+    "domain": "photon.com",
+    "email": "careers@photon.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "evam social",
+    "domain": "evamsocial.com",
+    "email": "careers@evamsocial.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "tracebyte",
+    "domain": "tracebyte.com",
+    "email": "careers@tracebyte.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "acme servcies",
+    "domain": "acme.in",
+    "email": "careers@acme.in",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "avestan technologies",
+    "domain": "avestantechnologies.com",
+    "email": "careers@avestantechnologies.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "allegis group",
+    "domain": "allegisgroup.com",
+    "email": "careers@allegisgroup.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "synechron",
+    "domain": "synechron.com",
+    "email": "careers@synechron.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "kaizen sra technologies",
+    "domain": "kaizensratech.com",
+    "email": "careers@kaizensratech.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "psrtek",
+    "domain": "psrtek.com",
+    "email": "hr@psrtek.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "ninos it solutions",
+    "domain": "ninositsolutions.com",
+    "email": "careers@ninositsolutions.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "b2y infy solutions",
+    "domain": "b2yinfy.com",
+    "email": "careers@b2yinfy.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "augmatrixgo",
+    "domain": "augmatrixgo.com",
+    "email": "careers@augmatrixgo.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "quantum servcies",
+    "domain": "quantum.com",
+    "email": "careers@quantum.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "connect digitech",
+    "domain": "connectdigitech.com",
+    "email": "hr@connectdigitech.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "Busigence Technologies",
+    "domain": "busigence.com",
+    "email": "careers@busigence.com",
+    "role": "React Developer (0-4 Yrs)",
+    "location": "Remote"
+  },
+  {
+    "company": "Onesoft Technologies",
+    "domain": "onesoft.com",
+    "email": "careers@onesoft.com",
+    "role": "Sr React Developer (2-5 Yrs)",
+    "location": "Remote"
+  },
+  {
+    "company": "Stapples Software Systems",
+    "domain": "stapples.com",
+    "email": "careers@stapples.com",
+    "role": "React Developer (2-7 Yrs)",
+    "location": "Remote"
+  },
+  {
+    "company": "Consulligent",
+    "domain": "consulligent.com",
+    "email": "careers@consulligent.com",
+    "role": "React-Js Developer",
+    "location": "Remote"
+  },
+  {
+    "company": "Adrs Techno",
+    "domain": "adrstechno.com",
+    "email": "careers@adrstechno.com",
+    "role": "React.js Developer",
+    "location": "Remote"
+  },
+  {
+    "company": "J S R Technologies",
+    "domain": "jsrtechnologies.com",
+    "email": "careers@jsrtechnologies.com",
+    "role": "React Developer (1-2 Yrs)",
+    "location": "Remote"
+  },
+  {
+    "company": "Techpulse It Services",
+    "domain": "techpulseitservices.com",
+    "email": "careers@techpulseitservices.com",
+    "role": "React Developer (1-6 Yrs)",
+    "location": "Pimpri-Chinchwad / Pune"
+  },
+  {
+    "company": "Vebbly",
+    "domain": "vebbly.com",
+    "email": "careers@vebbly.com",
+    "role": "Frontend Developer (0-5 Yrs)",
+    "location": "Remote"
+  },
+  {
+    "company": "Clifyx Technology",
+    "domain": "clifyx.com",
+    "email": "careers@clifyx.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Mumbai"
+  },
+  {
+    "company": "Systems Plus",
+    "domain": "systems-plus.com",
+    "email": "careers@systems-plus.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Pune"
+  },
+  {
+    "company": "Jmbliss It Solutions",
+    "domain": "jmbliss.com",
+    "email": "careers@jmbliss.com",
+    "role": "React Developer (0-1 Yrs)",
+    "location": "Indore"
+  },
+  {
+    "company": "MSP Concepts",
+    "domain": "mspconcepts.com",
+    "email": "careers@mspconcepts.com",
+    "role": "React Developer (1-2 Yrs)",
+    "location": "Ahmedabad"
+  },
+  {
+    "company": "Aavatto",
+    "domain": "aavatto.com",
+    "email": "careers@aavatto.com",
+    "role": "React Developer (1-5 Yrs)",
+    "location": "Ahmedabad"
+  },
+  {
+    "company": "Lufick",
+    "domain": "lufick.com",
+    "email": "careers@lufick.com",
+    "role": "React Developer (1-2 Yrs)",
+    "location": "Remote / Noida"
+  },
+  {
+    "company": "IRS Technologies",
+    "domain": "irstechnologies.com",
+    "email": "careers@irstechnologies.com",
+    "role": "React Developer (1-6 Yrs)",
+    "location": "Nagpur"
+  },
+  {
+    "company": "Codiac Ites",
+    "domain": "codiac.in",
+    "email": "careers@codiac.in",
+    "role": "React Developers (1-6 Yrs)",
+    "location": "Thrissur / Kochi"
+  },
+  {
+    "company": "Porak Technologies",
+    "domain": "porak.com",
+    "email": "careers@porak.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Kochi"
+  },
+  {
+    "company": "Qpaix Infitech",
+    "domain": "qpaix.com",
+    "email": "careers@qpaix.com",
+    "role": "React Developer (2-3 Yrs)",
+    "location": "Ahmedabad"
+  },
+  {
+    "company": "Clobrix Technologies",
+    "domain": "clobrix.com",
+    "email": "careers@clobrix.com",
+    "role": "React Developer (3-8 Yrs)",
+    "location": "Pune"
+  },
+  {
+    "company": "Gradera",
+    "domain": "gradera.com",
+    "email": "careers@gradera.com",
+    "role": "Frontend / React Developer",
+    "location": "Pan-India / Remote"
+  },
+  {
+    "company": "Aurous Consultancy",
+    "domain": "aurousconsultancy.com",
+    "email": "careers@aurousconsultancy.com",
+    "role": "Senior React Developer (4-9 Yrs)",
+    "location": "Mumbai"
+  },
+  {
+    "company": "Blisslers Technolabs",
+    "domain": "blisslerstechnolabs.com",
+    "email": "careers@blisslerstechnolabs.com",
+    "role": "Sr React Developer (5-7 Yrs)",
+    "location": "Ahmedabad"
+  },
+  {
+    "company": "Sky Vision It Solutions",
+    "domain": "skyvisionit.com",
+    "email": "careers@skyvisionit.com",
+    "role": "React Developers (1-4 Yrs)",
+    "location": "Nagpur"
+  },
+  {
+    "company": "Cnel India",
+    "domain": "cnelindia.com",
+    "email": "careers@cnelindia.com",
+    "role": "Fresher React Developers (0-2 Yrs)",
+    "location": "Jaipur"
+  },
+  {
+    "company": "Gapblue Software Labs",
+    "domain": "gapblue.com",
+    "email": "careers@gapblue.com",
+    "role": "React Developer (5-7 Yrs)",
+    "location": "Kochi"
+  },
+  {
+    "company": "Ragasoft Solutions",
+    "domain": "ragasoft.co.in",
+    "email": "info@ragasoft.co.in",
+    "role": "React Developer (1-3 Yrs)",
+    "location": "Mohali"
+  },
+  {
+    "company": "AtoZ Infoway",
+    "domain": "atozinfoway.com",
+    "email": "careers@atozinfoway.com",
+    "role": "React Developer (1-6 Yrs)",
+    "location": "Gandhinagar"
+  },
+  {
+    "company": "Appic Softwares",
+    "domain": "appicsoftwares.com",
+    "email": "hr@appicsoftwares.com",
+    "role": "React Developer (0-1 & 2-5 Yrs)",
+    "location": "Jaipur / Remote"
+  },
+  {
+    "company": "Outright Systems",
+    "domain": "outrightcrm.com",
+    "email": "careers@outrightcrm.com",
+    "role": "React Developer (2-4 Yrs)",
+    "location": "Noida"
+  },
+  {
+    "company": "Goigi",
+    "domain": "goigi.com",
+    "email": "careers@goigi.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Durgapur / Kolkata"
+  },
+  {
+    "company": "Vnbtechnologies",
+    "domain": "vnbtechnologies.com",
+    "email": "careers@vnbtechnologies.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Surat"
+  },
+  {
+    "company": "Insignia Consultancy Solutions",
+    "domain": "insigniaconsultancy.com",
+    "email": "careers@insigniaconsultancy.com",
+    "role": "React developer (3-6 Yrs)",
+    "location": "Remote"
+  },
+  {
+    "company": "Arcs Technologies",
+    "domain": "arcstechnologies.com",
+    "email": "careers@arcstechnologies.com",
+    "role": "React Developer (3-5 Yrs)",
+    "location": "Remote"
+  },
+  {
+    "company": "Gventure Technology",
+    "domain": "gventure.net",
+    "email": "careers@gventure.net",
+    "role": "React Developer (0-3 Yrs)",
+    "location": "Ahmedabad"
+  },
+  {
+    "company": "Dendrite",
+    "domain": "dendrite.io",
+    "email": "careers@dendrite.io",
+    "role": "React developers (1-6 Yrs)",
+    "location": "Pune"
+  },
+  {
+    "company": "IGLOBAL IMPACT ITES",
+    "domain": "iglobalimpact.com",
+    "email": "careers@iglobalimpact.com",
+    "role": "React Developer (1-6 Yrs)",
+    "location": "Durgapur"
+  },
+  {
+    "company": "Talentgenics",
+    "domain": "talentgenics.com",
+    "email": "careers@talentgenics.com",
+    "role": "React developer (2-7 Yrs)",
+    "location": "Pune"
+  },
+  {
+    "company": "Trigvent Solutions",
+    "domain": "trigvent.com",
+    "email": "careers@trigvent.com",
+    "role": "React Developer (2-7 Yrs)",
+    "location": "Mohali"
+  },
+  {
+    "company": "Cyperts",
+    "domain": "cyperts.net",
+    "email": "careers@cyperts.net",
+    "role": "React Developer (2-3 Yrs)",
+    "location": "Pune"
+  },
+  {
+    "company": "PAR Solution",
+    "domain": "parsolution.com",
+    "email": "careers@parsolution.com",
+    "role": "REACT DEVELOPER (2-4 Yrs)",
+    "location": "Surat"
+  },
+  {
+    "company": "Shrewd Business Solutions",
+    "domain": "shrewdbusiness.com",
+    "email": "careers@shrewdbusiness.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Coimbatore"
+  },
+  {
+    "company": "Tech Smart Solutions",
+    "domain": "techsmartsolutions.in",
+    "email": "careers@techsmartsolutions.in",
+    "role": "React Developer (2-7 Yrs)",
+    "location": "Ludhiana"
+  },
+  {
+    "company": "Indus Computers",
+    "domain": "induscomputers.com",
+    "email": "careers@induscomputers.com",
+    "role": "Senior React Developer (3-8 Yrs)",
+    "location": "Ambala"
+  },
+  {
+    "company": "Fulcrum Worldwide Software",
+    "domain": "fulcrumdigital.com",
+    "email": "careers@fulcrumdigital.com",
+    "role": "Senior React developer (4-6 Yrs)",
+    "location": "Pune, Coimbatore"
+  },
+  {
+    "company": "Teqnodux",
+    "domain": "teqnodux.com",
+    "email": "careers@teqnodux.com",
+    "role": "React Developer (1-2 Yrs)",
+    "location": "Surat"
+  },
+  {
+    "company": "XL It Work",
+    "domain": "xlitwork.com",
+    "email": "careers@xlitwork.com",
+    "role": "React Developer (1-4 Yrs)",
+    "location": "Nagpur"
+  },
+  {
+    "company": "Aakash Infoway",
+    "domain": "aakashinfoway.com",
+    "email": "careers@aakashinfoway.com",
+    "role": "React Developer (0-2 Yrs)",
+    "location": "Rajkot"
+  },
+  {
+    "company": "Innovation Incubator Advisory",
+    "domain": "innovationincubator.com",
+    "email": "careers@innovationincubator.com",
+    "role": "React Developer (1-6 Yrs)",
+    "location": "Kochi"
+  },
+  {
+    "company": "Multigraphics",
+    "domain": "multigraphics.in",
+    "email": "careers@multigraphics.in",
+    "role": "REACT DEVELOPER (1-3 Yrs)",
+    "location": "New Delhi"
+  },
+  {
+    "company": "Kirat It Solutions",
+    "domain": "kiratitsolutions.com",
+    "email": "careers@kiratitsolutions.com",
+    "role": "React Developer (1-6 Yrs)",
+    "location": "Kolkata"
+  },
+  {
+    "company": "Ghrix Technologies",
+    "domain": "ghrix.com",
+    "email": "careers@ghrix.com",
+    "role": "React Developer (2-4 Yrs)",
+    "location": "Mohali"
+  },
+  {
+    "company": "Vicdigit",
+    "domain": "vicdigit.com",
+    "email": "careers@vicdigit.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Lucknow"
+  },
+  {
+    "company": "RNF Technologies",
+    "domain": "rnftechnologies.com",
+    "email": "careers@rnftechnologies.com",
+    "role": "React Developer (2-3 Yrs)",
+    "location": "Noida"
+  },
+  {
+    "company": "Sharesoft Technology",
+    "domain": "sharesoft.in",
+    "email": "careers@sharesoft.in",
+    "role": "React Developer (2-7 Yrs)",
+    "location": "Madurai"
+  },
+  {
+    "company": "Ambiguous Solutions",
+    "domain": "ambiguoussolutions.com",
+    "email": "careers@ambiguoussolutions.com",
+    "role": "React developer (2-7 Yrs)",
+    "location": "Noida"
+  },
+  {
+    "company": "Cromosys Technologies",
+    "domain": "cromosys.com",
+    "email": "careers@cromosys.com",
+    "role": "Laravel, Vue/React developer (2-5 Yrs)",
+    "location": "Ahmedabad"
+  },
+  {
+    "company": "Udaan Technologies",
+    "domain": "udaantechnologies.com",
+    "email": "careers@udaantechnologies.com",
+    "role": "Senior React Developer (4-9 Yrs)",
+    "location": "Remote"
+  },
+  {
+    "company": "Tantra-gyan",
+    "domain": "tantragyan.com",
+    "email": "careers@tantragyan.com",
+    "role": "React Developer (1-5 Yrs)",
+    "location": "Mumbai"
+  },
+  {
+    "company": "Vook Tech India",
+    "domain": "vooktech.com",
+    "email": "careers@vooktech.com",
+    "role": "React Developer (1-2 Yrs)",
+    "location": "Bhiwadi"
+  },
+  {
+    "company": "Bytescrum Technologies",
+    "domain": "bytescrum.com",
+    "email": "careers@bytescrum.com",
+    "role": "React Developer (1-4 Yrs)",
+    "location": "Lucknow"
+  },
+  {
+    "company": "Aiimtech Software System",
+    "domain": "aiimtech.com",
+    "email": "careers@aiimtech.com",
+    "role": "React Developer (1-2 Yrs)",
+    "location": "Virudhunagar"
+  },
+  {
+    "company": "Codanto",
+    "domain": "codanto.com",
+    "email": "careers@codanto.com",
+    "role": "React Developers (1-6 Yrs)",
+    "location": "Panaji"
+  },
+  {
+    "company": "Swadhin It Solutions",
+    "domain": "swadhinitsolutions.in",
+    "email": "careers@swadhinitsolutions.in",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Bhubaneswar"
+  },
+  {
+    "company": "Bootcoding",
+    "domain": "bootcoding.in",
+    "email": "careers@bootcoding.in",
+    "role": "React Developer (2-7 Yrs)",
+    "location": "Nagpur"
+  },
+  {
+    "company": "Manthan It Solutions",
+    "domain": "manthanitsolutions.com",
+    "email": "careers@manthanitsolutions.com",
+    "role": "React Developer (2-7 Yrs)",
+    "location": "New Delhi"
+  },
+  {
+    "company": "Anteelo",
+    "domain": "anteelo.com",
+    "email": "careers@anteelo.com",
+    "role": "React Developer (2-6 Yrs)",
+    "location": "New Delhi"
+  },
+  {
+    "company": "Indycium",
+    "domain": "indycium.com",
+    "email": "careers@indycium.com",
+    "role": "Django & React Developer (2-4 Yrs)",
+    "location": "New Delhi"
+  },
+  {
+    "company": "Verios Technologies",
+    "domain": "verios.io",
+    "email": "careers@verios.io",
+    "role": "JavaScript & React Developer (2-5 Yrs)",
+    "location": "New Delhi"
+  },
+  {
+    "company": "Ekzero Corporation",
+    "domain": "ekzero.com",
+    "email": "careers@ekzero.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Vadodara"
+  },
+  {
+    "company": "Goorbit Technologies",
+    "domain": "goorbit.in",
+    "email": "careers@goorbit.in",
+    "role": "Senior React Developer (5-10 Yrs)",
+    "location": "Remote"
+  },
+  {
+    "company": "Thex Techvent",
+    "domain": "thextechvent.com",
+    "email": "careers@thextechvent.com",
+    "role": "React Developer (1-6 Yrs)",
+    "location": "Kochi"
+  },
+  {
+    "company": "Softhought",
+    "domain": "softhought.com",
+    "email": "careers@softhought.com",
+    "role": "React Developer (0-1 Yrs)",
+    "location": "Kolkata"
+  },
+  {
+    "company": "Cloudexis",
+    "domain": "cloudexis.com",
+    "email": "careers@cloudexis.com",
+    "role": "React Developer (1-6 Yrs)",
+    "location": "Nagpur"
+  },
+  {
+    "company": "Magadh Digital Solution",
+    "domain": "magadhdigital.com",
+    "email": "careers@magadhdigital.com",
+    "role": "React Developer (1-4 Yrs)",
+    "location": "Gurugram"
+  },
+  {
+    "company": "We3 Tech Works",
+    "domain": "we3techworks.com",
+    "email": "careers@we3techworks.com",
+    "role": "React Developer (2-3 Yrs)",
+    "location": "Mumbai"
+  },
+  {
+    "company": "Vedobi",
+    "domain": "vedobi.com",
+    "email": "careers@vedobi.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "New Delhi"
+  },
+  {
+    "company": "Shreedama Technologies",
+    "domain": "shreedama.com",
+    "email": "careers@shreedama.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Surat"
+  },
+  {
+    "company": "Enprowess Technologies",
+    "domain": "enprowess.com",
+    "email": "careers@enprowess.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Ahmedabad"
+  },
+  {
+    "company": "Platinum Trading Academy",
+    "domain": "platinumtradingacademy.com",
+    "email": "careers@platinumtradingacademy.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Pune"
+  },
+  {
+    "company": "Inficore Soft",
+    "domain": "inficoresoft.com",
+    "email": "careers@inficoresoft.com",
+    "role": "React Developer (2-6 Yrs)",
+    "location": "Patna"
+  },
+  {
+    "company": "The Ocean Studios",
+    "domain": "theoceanstudios.com",
+    "email": "careers@theoceanstudios.com",
+    "role": "React Developer (2-7 Yrs)",
+    "location": "Surat"
+  },
+  {
+    "company": "Dunes Factory",
+    "domain": "dunesfactory.com",
+    "email": "careers@dunesfactory.com",
+    "role": "React Developer (2-7 Yrs)",
+    "location": "Bikaner"
+  },
+  {
+    "company": "Dsv Infosolutions",
+    "domain": "dsvinfosolutions.com",
+    "email": "careers@dsvinfosolutions.com",
+    "role": "React Developer (2-6 Yrs)",
+    "location": "Thane"
+  },
+  {
+    "company": "Voidspace It Solutions",
+    "domain": "voidspaceitsolutions.com",
+    "email": "careers@voidspaceitsolutions.com",
+    "role": "React Developer (2-5 Yrs)",
+    "location": "Pune"
+  }
+]

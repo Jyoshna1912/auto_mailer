@@ -1,1 +1,49 @@
-now send linkedin latest (frintend developer , java script develoer , ui developer , web developer , etc ) , hr posts ,talelent aquisition posts , companies posts , hirings , openings , location onlyHyderabad , Benguluru. so send linksc:\Users\R.VENNELA\Downloads\Email_template.pdf
+now send linkedin latest (frontend developer , java script develoer , ui developer , web developer , etc ) , hr posts ,talelent aquisition posts , companies posts , hirings , openings , location only Hyderabad , Bangalore, chennai. 
+
+before send target emails first th9is file -->C:\automailer\automatic_mailer\Email_template.pdf and becuase it have emails tempalte formate and rules are make it email like human written not ai genartor so firts read , then im attaching the linkedin posts content 
+
+so now read my resume C:\automailer\automatic_mailer\Jyoshna_Rayadurgam_Frontend_Developer.pdf according to remsume and email templates and job posts based on that send the target mails.
+
+ now i going to paste linekdin content -->() 
+ and once u have the verified leads  send to those emials one by one ok, also if u happen to find any posts whch has the recuriters contact5 details share them properly along with company name and role mentioned in jd with location and exp asked so i can also text them...
+
+
+
+
+
+
+
+I'm a Frontend Developer with professional experience building responsive websites, web applications, admin panels, and business workflows using React.js, JavaScript, and TypeScript. I've also contributed to team-built products, including a retail POS/ERP and an examination management platform. I enjoy creating user-friendly interfaces, learning new technologies, and collaborating with teams to turn requirements into practical solutions. I'm eager to contribute my skills and continue growing as a frontend developer.
+
+
+
+
+Search with a query
+You can paste these search terms directly into LinkedIn's Jobs search box.
+React.js — Hyderabad
+Search query
+("React Developer" OR "React.js Developer" OR "Frontend Developer")
+  Copy queryThen set Location = Hyderabad and Date posted = Past 24 hours.
+
+Frontend — Bangalore
+Search query
+("Frontend Developer" OR "Front End Developer" OR "UI Developer") AND (React OR JavaScript)
+  Copy queryThen set Location = Bengaluru and Date posted = Past 24 hours.
+
+Web Developer — Chennai
+Search query
+("Web Developer" OR "Frontend Developer" OR "React Developer") AND (HTML OR CSS OR JavaScript)
+  Copy queryThen set Location = Chennai and Date posted = Past 24 hours.
+
+The queries help broaden the role titles. The Date posted filter—not the words “latest” or “recent” in the query—is what restricts the results by posting age.
+Option C — Get the freshest jobs
+If you want to check more frequently than once per day, LinkedIn's URL sometimes supports a time-window parameter:
+- f_TPR=r86400 — last 24 hours
+- f_TPR=r604800 — last 7 days
+LinkedIn's interface is the most reliable starting point; custom URL parameters can behave differently as its search experience changes. 
+
+One extra trick: search hiring posts, too
+Some recruiters announce vacancies in ordinary LinkedIn posts before you find them in Jobs.
+Try this query in LinkedIn's main search:
+("hiring" OR "we're hiring") AND ("React Developer" OR "Frontend Developer") AND (Hyderabad OR Bangalore OR Chennai)
+Then select Posts, filter by Past 24 hours, and open the original post to find the actual vacancy and contact person.
